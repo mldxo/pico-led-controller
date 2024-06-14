@@ -7,7 +7,7 @@
 
 #include "light_state.h"
 
-const char* ssi_tags[] = {"volt","temp","onboard-led","led"};
+const char* ssi_tags[] = {"volt","temp","onboard_led","led"};
 
 u16_t ssi_handler(int iIndex, char *pcInsert, int iInsertLen) {
   size_t print_value;
