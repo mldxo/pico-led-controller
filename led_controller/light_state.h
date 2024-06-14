@@ -1,11 +1,14 @@
 #ifndef _LIGHT_STATE_H
 #define _LIGHT_STATE_H
 
-#define NUM_PIXELS 118
+#define NUM_PIXELS 120
+#define DEFAULT_LIGHTING_MODE 0
+#define DEFAULT_BRIGHTNESS 255
+#define DEFAULT_STATE false
 
 #include <stdint.h>
 
-volatile bool light_state = true;
+volatile bool light_state = DEFAULT_STATE;
 
 void toggle_light_state()
 {
