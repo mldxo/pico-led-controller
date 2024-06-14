@@ -82,6 +82,7 @@
         "ws2812.pio.h": "c",
         "lwipopts.h": "c",
         "blink.h": "c",
-        "mdns.h": "c"
+        "mdns.h": "c",
+        "stdio.h": "c"
     }
 }
