@@ -16,8 +16,8 @@
             <h2 class="text-2xl font-semibold mb-4">SSI:</h2>
             <p class="mb-2">Voltage: <span class="font-mono text-blue-500"><!--#volt--></span></p>
             <p class="mb-2">Temp: <span class="font-mono text-blue-500"><!--#temp--></span> °C</p>
-            <p class="mb-2">Onboard LED is: <span class="font-mono text-blue-500"><!--#onboard-led--></span></p>
-            <p class="mb-2">LED strip is: <span class="font-mono text-blue-500"><!--#led--></span></p>
+            <p class="mb-2">Onboard LED: <span class="font-mono text-blue-500"><!--#onboard_led--></span></p>
+            <p class="mb-2">LED strip: <span class="font-mono text-blue-500"><!--#led--></span></p>
         </div>
         <div class="mb-6">
             <h2 class="text-2xl font-semibold mb-4">CGI:</h2>
